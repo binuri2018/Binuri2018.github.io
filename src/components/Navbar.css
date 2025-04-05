@@ -1,0 +1,62 @@
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #024465;  
+  padding: 15px 40px;
+  color: white;
+  z-index: 1000;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Left Side: Profile Image and Name */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.navbar-info h2 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.navbar-info p {
+  font-size: 14px;
+  margin: 0;
+  color: #ccc;
+}
+
+/* Right Side: Navigation Links */
+.navbar-links {
+  margin-right: 100px;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: cyan;
+}
+
+
